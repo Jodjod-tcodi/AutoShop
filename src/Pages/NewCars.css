@@ -1,0 +1,23 @@
+.new-page{
+    background: linear-gradient( to bottom right, #91a0b1 , #fde1ff);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin-top: 5px;
+    margin: 5px 0;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, #901010, #081f5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+}

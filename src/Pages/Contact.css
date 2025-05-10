@@ -1,0 +1,62 @@
+.contact-page {
+    background: linear-gradient(to bottom right, #91a0b1 , #fde1ff);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 50%;
+}
+
+.contact-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #081f5e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-form .text-muted {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.contact-form .btn-primary {
+    background: linear-gradient(to right, #007bff, #ff4141);
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: transform 0.3s;
+}
+
+.contact-form .btn-primary:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ff4141, #007bff);
+}
+
+.contact-form .form-text {
+    font-style: italic;
+    color: #666;
+}

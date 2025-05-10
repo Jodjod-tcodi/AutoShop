@@ -1,0 +1,86 @@
+.home-page{
+    background: linear-gradient( to bottom right, #91a0b1 , #fde1ff);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slogan{
+    margin-top: 5px;
+    margin: 5px 0;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    background: linear-gradient(to right, #901010, #081f5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+}
+
+.slogan:hover{
+    color: #ff4141;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0 , 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-caption h3, .carousel-caption p{
+
+    color: white;
+}
+
+.carousel{
+    margin-top: 200px;
+}
+
+.deals {
+    margin-top: 5px;
+    margin: 5px 0;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #901010, #081f5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    font-style: oblique;
+
+}
+.card {
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1)  ;
+    transition: transform 0.3s;
+    margin: 20px;
+
+}
+
+.card:hover{
+
+    transform: scale(1.05);
+}
+
+.line {
+    margin: 20px auto;
+    height: 2px;
+    border: none;
+    background: linear-gradient(to right, #ff4141 , #007bff);
+    width: 80%;
+    
+}
+
+
+    

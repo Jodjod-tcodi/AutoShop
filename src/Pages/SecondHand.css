@@ -1,0 +1,9 @@
+.second-page{
+    background: linear-gradient( to bottom right, #91a0b1 , #fde1ff);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
